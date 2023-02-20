@@ -1,6 +1,8 @@
 from django.contrib.auth import login, authenticate
 from django.shortcuts import render, redirect
 
+
+#Register a new user 
 def registration_view(request):
   context = {}
   if request.POST:
